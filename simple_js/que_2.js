@@ -8,5 +8,9 @@ const getName = (firstName, lastName) => {
     return firstName.charAt(0)+lastName.charAt(0);
 };
 
-const initials = getName("Ronak", "Delvadiya");
+const initials = getName("Ronak", "Delvadiya"); // RD
 console.log(initials);
+
+// Another way
+const getInitials = (firstName, lastName) => firstName.charAt(0)+lastName.charAt(0);
+console.log(getInitials("Ronak", "Delvadiya")); // RD
